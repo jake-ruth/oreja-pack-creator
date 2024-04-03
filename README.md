@@ -45,6 +45,9 @@ Now we can just use `pip install x` to install libraries
 
 `pip freeze > requirements.txt`
 
+Install from requirements.txt
+`python -m pip install -r requirements.txt`
+
 Deactivate the venv:
 `deactivate`
 
