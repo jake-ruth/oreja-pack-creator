@@ -1,8 +1,9 @@
 from create_packs import create_packs
 from process_midi_file import process_midi_file
+import sys
 
-notes_per_sequence = 4
 midi_file_name = '../TestMidi.mid'
+title = sys.argv[1]
 
-note_names, title = process_midi_file(midi_file_name)
-create_packs(title, title, notes_per_sequence, note_names);
+note_sequences = process_midi_file(midi_file_name)
+create_packs(title, title, note_sequences);

@@ -1,0 +1,34 @@
+{
+  "id": "cfc6666f-bd0f-4ff8-ba93-a5b71d285a52",
+  "title": "my-title",
+  "description": "my-title",
+  "noteSequences": [
+    [
+      "C#4",
+      "C4",
+      "C#4",
+      "C4"
+    ],
+    [
+      "C4",
+      "B3",
+      "C4",
+      "B3"
+    ],
+    [
+      "C#4",
+      "C4",
+      "C#4",
+      "C4"
+    ],
+    [
+      "C4",
+      "B3",
+      "C4",
+      "B3"
+    ]
+  ],
+  "isFeatured": false,
+  "isPremium": true,
+  "isActive": true
+}

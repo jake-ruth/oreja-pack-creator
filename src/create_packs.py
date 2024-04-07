@@ -3,18 +3,10 @@ import json
 import numpy
 import uuid
 
-def create_packs(title, description, notes_per_sequence, all_notes):
-    note_sequences = []
-    index = 0 
+def create_packs(title, description, note_sequences):
+    print(note_sequences)
 
-    # using numpy to make array easier to parse
-    arr = numpy.array(all_notes)
     print('generating note sequences...')
-
-    while index < len(all_notes):
-        sequence = arr[index:index + notes_per_sequence]
-        note_sequences.append(sequence.tolist())
-        index += notes_per_sequence
 
     dictionary ={
         "id": str(uuid.uuid4()),
