@@ -1,6 +1,5 @@
 import os
 import json
-import numpy
 import uuid
 
 def create_packs(title, description, note_sequences):
