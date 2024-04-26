@@ -51,6 +51,8 @@ Install from requirements.txt
 Deactivate the venv:
 `deactivate`
 
+TKINTER for Mac:
+https://stackoverflow.com/questions/61218237/how-can-i-install-tkinter-for-python-on-mac
 
 
 
